@@ -30,8 +30,8 @@ while True:
 
     if operation in ('1', '2', '3', '4'):
         try:
-            a = int(input("Enter the first number: "))
-            b = int(input("Enter the second number: "))
+            a = float(input("Enter the first number: "))
+            b = float(input("Enter the second number: "))
         except ValueError:
             print("Please enter a valid number")
             continue
